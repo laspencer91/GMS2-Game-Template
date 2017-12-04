@@ -4,10 +4,8 @@
     "mvc": "1.1",
     "name": "a04acab8-9ec1-45cc-82dd-9250c7306694",
     "children": [
-        "ec389a50-0fb3-4118-a092-3b88a89b9374",
-        "00de98e7-f82e-4ef9-a08c-66efeb9dc773",
-        "c5e4ef2b-20d0-450f-a245-2eea55d00f8c",
-        "c50a2feb-37e0-4f03-a13a-542bd6126447"
+        "94773d89-ad77-4b70-83f6-a760fa05120f",
+        "820d26fd-d024-4403-918d-7515868e22cb"
     ],
     "filterType": "GMScript",
     "folderName": "Ease \/ Tween \/ Movement",
