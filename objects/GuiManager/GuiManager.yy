@@ -1,18 +1,28 @@
 {
-    "id": "edc214fd-ef5a-42cf-a176-6f3c91145d14",
+    "id": "7aec94ee-111e-45b9-93a2-c7778da90624",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "PlayerStatsManager",
+    "name": "GuiManager",
     "eventList": [
         {
-            "id": "ea918960-5c7a-4319-bf05-3395dbf7904f",
+            "id": "a90c7c96-c80a-4aaa-8239-71983d3491ed",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "edc214fd-ef5a-42cf-a176-6f3c91145d14"
+            "m_owner": "7aec94ee-111e-45b9-93a2-c7778da90624"
+        },
+        {
+            "id": "e2fbc7f1-dcce-4917-9bbc-6391087a7068",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "7aec94ee-111e-45b9-93a2-c7778da90624"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

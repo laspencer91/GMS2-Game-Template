@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "7aec94ee-111e-45b9-93a2-c7778da90624",
+            "Value": {
+                "id": "b0bb8831-18f8-4b3e-acb3-0169a4f97070",
+                "resourcePath": "objects\\GuiManager\\GuiManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7cbd4662-4b80-43e9-b17e-5ceb84c75907",
             "Value": {
                 "id": "e5517d9d-5f48-4680-82a5-2df727e8216c",
@@ -499,14 +507,6 @@
             "Value": {
                 "id": "137b7972-5861-450a-b125-8e09a302e7c4",
                 "resourcePath": "objects\\ButtonExitGame\\ButtonExitGame.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "edc214fd-ef5a-42cf-a176-6f3c91145d14",
-            "Value": {
-                "id": "2d8f841e-8534-4e14-9ee7-3ca9dfd6bc2f",
-                "resourcePath": "objects\\PlayerStatsManager\\PlayerStatsManager.yy",
                 "resourceType": "GMObject"
             }
         },

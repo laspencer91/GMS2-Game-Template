@@ -5,10 +5,7 @@
 // save our data between rooms when changing. We dont even have to check
 // to see if it exists!! Because it always will :)
 
-// The data is currently saved on room change in the room end event.
-// You could move this to the PlayerStatsManager, or room manager, but
-// I feel as though doing it in this object gives more flexibility
-myHealth	   = PlayerStatsManager.myHealth;
-maxRunSpeed    = PlayerStatsManager.maxRunSpeed;
-canFly         = PlayerStatsManager.canFly;
-equippedWeapon = PlayerStatsManager.equippedWeapon;
+// If you want to save data between rooms you can either make the player persistant or use a PlayerStatsManager
+// system as shown in the Example Project
+myHealth	   = 100;
+maxRunSpeed    = 5;

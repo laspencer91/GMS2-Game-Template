@@ -7,7 +7,7 @@
         "51b220f5-1513-457b-aa9a-4a6c6541f434"
     ],
     "filterType": "GMObject",
-    "folderName": "Gui",
+    "folderName": "Menus",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
