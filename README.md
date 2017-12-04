@@ -13,6 +13,9 @@ To add a new controller object that will be available throughout your game its a
 
 Walla!! You just made an object that will be in every room in your game, and unless you say otherwise... Its variables will not be reset on room change. Any object with this setup will automatically be created when NewGame is clicked (More accurately.. when the GameLoader room starts)
 
+## Demo Project - Just a small demo showing how to use the different managers and simple setup.
+https://github.com/laspencer91/GMS2-Template-Project-Demo
+
 ## Features
 
 - **GameLoader Object** - Uses a loading screen to initialize your objects. Gets rid of the need of having to use "instance_exists" everywhere in your code. By the time your game gets to your gameplay room, all of your "Controller" objects will be available to use.
