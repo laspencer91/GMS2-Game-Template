@@ -5,6 +5,12 @@
 
 singletons = ds_list_create();
 
+if (room != LoadingRoom)
+{
+	instance_destroy();
+	exit;
+}
+
 var i = 0;
 
 // Loop through our resource tree and find all Singleton objects to be created

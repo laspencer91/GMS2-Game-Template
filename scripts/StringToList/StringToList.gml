@@ -3,7 +3,7 @@
 /// @param string The string to parse.
 /// @param char A single character (delimiter)
 //
-// Example: 1, 5, 10 will return a list of each number if char == ","
+// Example: "1, 5, 10" will return a list of each number if char == ","
 //
 // http://www.seabassandgazellestudios.com/gml-scripts.html
 
