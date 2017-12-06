@@ -2,8 +2,10 @@
 
 ----------
 
-
 **A small project template that takes sets you up for good design structure. Includes basic Start Menu / Game Loading system. Has a simple Singleton system and basic managers setup for you.**
+
+**Get Support On Discord Here**
+https://discord.gg/Su3SjcD
 
 To add a new controller object that will be available throughout your game its as easy as.
 
