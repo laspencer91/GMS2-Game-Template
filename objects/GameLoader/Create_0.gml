@@ -13,13 +13,15 @@ if (room != LoadingRoom)
 
 var i = 0;
 
+instance_create_depth(0, 0, "Instances", SaveSystemHandler);
+
 // Loop through our resource tree and find all Singleton objects to be created
 while (true)
 {
     if (!object_exists(i)) 
 		break;
 	
-    if (object_is_ancestor(i, Singleton))
+    if (object_is_ancestor(i, Singleton) && !instance_exists(i))
 	{
 		ds_list_add(singletons, i);
 	}

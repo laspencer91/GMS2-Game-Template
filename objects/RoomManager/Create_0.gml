@@ -11,3 +11,6 @@
 // and anything else that has to do with rooms!
 
 event_inherited(); // Make sure that this is called in any object that is a child of Singleton
+
+SaveSystemAddInstance(id, SINGLETON);
+SaveSystemAddSingletonVar("room");

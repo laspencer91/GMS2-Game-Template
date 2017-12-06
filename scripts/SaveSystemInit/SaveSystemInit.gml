@@ -7,7 +7,7 @@
 
 // This is the parent of this data structure, it contains nested maps and list that organize data into easily
 // accessable elements.
-global.saveDataMap = ds_map_create();
+global.saveDataMap = ds_map_create()
 
 // Data Objects are persistent objects or objects that there will never
 // be more than one of, and when room doesn't matter to the object. For instance
