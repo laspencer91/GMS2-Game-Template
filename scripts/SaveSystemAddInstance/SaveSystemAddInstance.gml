@@ -18,10 +18,31 @@ var _instanceKey  = SaveSystemGenerateInstanceKey(_newSaveInstance);
 if (_typeOfInstance == LOCAL)
 {
 	var _roomMapILiveIn = SaveSystemGetRoomMap();
-	var _newInstVarMap = ds_map_create();
+	if (!ds_map_exists(_roomMapILiveIn, _instanceKey,))
+	{
+		// Create New Instance In Map And Save
+		var _newInstVarMap = ds_map_create();
 	
-	_newInstVarMap[? "destroyed"] = false;
-	ds_map_add_map(_roomMapILiveIn, _instanceKey, _newInstVarMap);
+		ds_map_add(_newInstVarMap, "destroyed", false);
+		ds_map_add_map(_roomMapILiveIn, _instanceKey, _newInstVarMap);
+	}
+	else
+	{
+		// I already exist in the map so load my variables into me
+		var _myVarMap  = _roomMapILiveIn[? _instanceKey];
+		var _myVarKeys = ds_map_get_keys(_myVarMap);
+		
+		for (var _i = 0; _i < ds_list_size(_myVarKeys); _i++)
+		{
+			var currentVarKey = _myVarKeys[| _i];
+			var currentVarVal = _myVarMap[? currentVarKey];
+			
+			if (currentVarKey != "destroy")
+				variable_instance_set(_newSaveInstance, currentVarKey, currentVarVal);
+			else
+				if (currentVarVal == true) instance_deactivate_object(_newSaveInstance); // Disable instance if it was destroyed
+		}
+	}
 }
 else if (_typeOfInstance == SINGLETON)
 {

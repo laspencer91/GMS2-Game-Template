@@ -6,11 +6,13 @@
 // updates them with the instances values.
 var __instanceVariableMap = argument0;
 var __instanceToSave      = argument1;
+var __instVarKeyList      = ds_map_get_keys(__instanceVariableMap);
+var __currentVarKey;
 
-var __currentVarKey = ds_map_find_first(__instanceVariableMap);
-
-for (__i = 0; __i < ds_map_size(__instanceVariableMap); __i++)
+for (var __i = 0; __i < ds_list_size(__instVarKeyList); __i++)
 {
-		ds_map_replace(__instanceVariableMap, __currentVarKey, variable_instance_get(__instanceToSave, __currentVarKey));
-		ds_map_find_next(__instanceVariableMap, __currentVarKey);
+		__currentVarKey = __instVarKeyList[| __i];
+		
+		if (__currentVarKey != "destroyed")
+			ds_map_replace(__instanceVariableMap, __currentVarKey, variable_instance_get(__instanceToSave, __currentVarKey));
 }

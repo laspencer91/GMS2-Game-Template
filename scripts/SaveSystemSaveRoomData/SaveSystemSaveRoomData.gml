@@ -12,17 +12,16 @@ if (ds_map_size(_currentRoomMap) <= 0)
 	return;
 }
 
-var _keyParsedValues, _currentObjIndex, _objX, _objY, _currentVariableMap;
-var _currentInstanceKey = ds_map_find_first(_currentRoomMap);
+var _keyParsedValues, _currentObjIndex, _objX, _objY, _currentVariableMap, _currentInstanceKey ;
+var _instVarKeyList = ds_map_get_keys(_currentRoomMap);
 
 // Iterate through all instance keys in the room map
-for (var i = 0; i < ds_map_size(_currentRoomMap); i++)
+for (var i = 0; i < ds_list_size(_instVarKeyList); i++)
 {
+	_currentInstanceKey = _instVarKeyList[| i]
+
 	// Parse Key
 	_keyParsedValues = StringToList(_currentInstanceKey, INST_PROP_DELIMITER);
-	
-	show_message(_keyParsedValues[| 0]);
-	
 	_currentObjIndex = asset_get_index(_keyParsedValues[| 0]);
 	_objX            = real(_keyParsedValues[| 1]);
 	_objY            = real(_keyParsedValues[| 2]);
@@ -35,12 +34,9 @@ for (var i = 0; i < ds_map_size(_currentRoomMap); i++)
 	}
 	else
 	{
-		// All this is going away
-		var _instanceOfCurrentObj; 
-	
 		for (var _a = 0; _a < instance_number(_currentObjIndex); _a++)
 		{
-			_instanceOfCurrentObj = instance_find(_currentObjIndex, _a);
+			var _instanceOfCurrentObj = instance_find(_currentObjIndex, _a);
 			
 			if (_instanceOfCurrentObj.xstart == _objX && _instanceOfCurrentObj.ystart == _objY)
 			{
@@ -54,5 +50,4 @@ for (var i = 0; i < ds_map_size(_currentRoomMap); i++)
 			}
 		}
 	}
-	_currentInstanceKey = ds_map_find_next(_currentRoomMap, _currentInstanceKey);
 }
