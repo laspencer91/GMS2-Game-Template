@@ -20,7 +20,7 @@ if (argument_count > 1)
 {
 	if (argument[1] == ds_type_map)	
 	{
-		ds_map_add_map(_instanceVariableMap_, "MAP" + _varToAdd, variable_instance_get(id, _varToAdd)) 
+		ds_map_add_map(_instanceVariableMap_, DS_T_MAP + _varToAdd, variable_instance_get(id, _varToAdd)) 
 	}
 }
 else
