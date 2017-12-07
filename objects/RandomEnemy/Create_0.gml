@@ -1,4 +1,4 @@
 /// @description Try Some Variable Saving
 
-SaveSystemAddInstance(id, LOCAL);
-SaveSystemAddLocalVar("x");
+gss_AddInstance(id, LOCAL);
+gss_AddLocalVar("x");

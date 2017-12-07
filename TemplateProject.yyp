@@ -98,7 +98,7 @@
             "Key": "15517570-ec6b-4af2-a26d-292b6ddb5ca2",
             "Value": {
                 "id": "59d27c84-2299-4f7e-8bb8-4c0169aed972",
-                "resourcePath": "scripts\\SaveSystemGetRoomMap\\SaveSystemGetRoomMap.yy",
+                "resourcePath": "scripts\\gss_GetRoomMap\\gss_GetRoomMap.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -130,7 +130,7 @@
             "Key": "1c63eb7c-b10b-4e54-a7ad-8f364577a4d0",
             "Value": {
                 "id": "903ef313-189a-487a-a516-d05e7058c237",
-                "resourcePath": "scripts\\SaveSystemAddLocalVar\\SaveSystemAddLocalVar.yy",
+                "resourcePath": "scripts\\gss_AddLocalVar\\gss_AddLocalVar.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "2114ddf5-4949-4fb6-886f-1daccc514f6e",
             "Value": {
                 "id": "ab86d3ee-c5b9-45e6-904f-a487640fd2ab",
-                "resourcePath": "scripts\\SaveSystemSaveSingletons\\SaveSystemSaveSingletons.yy",
+                "resourcePath": "scripts\\gss_SaveSingletons\\gss_SaveSingletons.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -202,7 +202,7 @@
             "Key": "371abf12-e698-4056-a02a-f01158ad778d",
             "Value": {
                 "id": "0696d5e3-386b-42cc-a7c0-19dabfc2178c",
-                "resourcePath": "scripts\\SaveSystemAddSingletonVar\\SaveSystemAddSingletonVar.yy",
+                "resourcePath": "scripts\\gss_AddSingletonVar\\gss_AddSingletonVar.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -338,7 +338,7 @@
             "Key": "59f08a39-ee96-45c9-9a82-e71df058729d",
             "Value": {
                 "id": "16be02e5-517a-4e3e-bc6b-38c7d0c4b1f6",
-                "resourcePath": "scripts\\SaveSystemSaveRoomData\\SaveSystemSaveRoomData.yy",
+                "resourcePath": "scripts\\gss_SaveRoomData\\gss_SaveRoomData.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -394,7 +394,7 @@
             "Key": "6f6d7237-656a-43ed-87d3-5cc05dab7178",
             "Value": {
                 "id": "4ccd16f4-1c24-49b7-8c29-25854311b0bc",
-                "resourcePath": "scripts\\SaveSystemDebug\\SaveSystemDebug.yy",
+                "resourcePath": "scripts\\gss_Debug\\gss_Debug.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -538,7 +538,7 @@
             "Key": "982ec55d-dd9f-4984-9162-f452027a55a3",
             "Value": {
                 "id": "4205477b-d7dc-4c7a-b8e9-7da365463cfb",
-                "resourcePath": "scripts\\SaveSystemSaveSecure\\SaveSystemSaveSecure.yy",
+                "resourcePath": "scripts\\gss_SaveSecure\\gss_SaveSecure.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -578,7 +578,7 @@
             "Key": "a5fe4d04-3346-49a5-ac07-821749659656",
             "Value": {
                 "id": "b705fffc-6a12-4fef-967a-c2d921de82ff",
-                "resourcePath": "scripts\\SaveSystemAddRoom\\SaveSystemAddRoom.yy",
+                "resourcePath": "scripts\\gss_AddRoom\\gss_AddRoom.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -602,7 +602,7 @@
             "Key": "b21cdde1-e974-45a6-82d3-0e3cffbe18d2",
             "Value": {
                 "id": "8234b9e9-376a-4bd5-990b-6aae56bb20ba",
-                "resourcePath": "scripts\\SaveSystemGenerateInstanceKey\\SaveSystemGenerateInstanceKey.yy",
+                "resourcePath": "scripts\\gss_GenerateInstanceKey\\gss_GenerateInstanceKey.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -690,7 +690,7 @@
             "Key": "c534112e-6e6e-4f70-a5fc-50bbd2196b0a",
             "Value": {
                 "id": "0ab2eec9-f179-425d-a999-d61913560f5d",
-                "resourcePath": "scripts\\SaveSystemInit\\SaveSystemInit.yy",
+                "resourcePath": "scripts\\gss_Init\\gss_Init.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -778,7 +778,7 @@
             "Key": "d9de4be3-5be9-4e9b-9f2f-57792e0cc9e1",
             "Value": {
                 "id": "1b624c9e-f199-4a25-bf95-0e08df810265",
-                "resourcePath": "scripts\\SaveSystemAddInstance\\SaveSystemAddInstance.yy",
+                "resourcePath": "scripts\\gss_AddInstance\\gss_AddInstance.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -858,7 +858,7 @@
             "Key": "ec6fc946-503b-427b-aae5-c6a650c364e1",
             "Value": {
                 "id": "dacab10e-d97c-4ff8-9ad3-9343d34dc948",
-                "resourcePath": "scripts\\SaveSystemUpdateInstVars\\SaveSystemUpdateInstVars.yy",
+                "resourcePath": "scripts\\gss_UpdateInstVars\\gss_UpdateInstVars.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -956,6 +956,7 @@
         "820c864a-0ac5-4771-8e1c-89edc19d5d92",
         "210962dc-b63b-4de5-8d07-f636e66eaa6e",
         "7d239280-bdc2-4b04-aca0-b60d1eaf08b6",
+        "d23e965b-608d-4086-811d-0274a5cbb3cf",
         "c534112e-6e6e-4f70-a5fc-50bbd2196b0a",
         "d9de4be3-5be9-4e9b-9f2f-57792e0cc9e1",
         "1c63eb7c-b10b-4e54-a7ad-8f364577a4d0",
@@ -969,8 +970,7 @@
         "b21cdde1-e974-45a6-82d3-0e3cffbe18d2",
         "6f6d7237-656a-43ed-87d3-5cc05dab7178",
         "e733e5d2-9452-4003-a50e-48f631a986c6",
-        "82c4c20d-da7f-4c5f-a4bb-76f803caadd4",
-        "d23e965b-608d-4086-811d-0274a5cbb3cf"
+        "82c4c20d-da7f-4c5f-a4bb-76f803caadd4"
     ],
     "tutorial": ""
 }

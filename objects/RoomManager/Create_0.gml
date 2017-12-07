@@ -14,8 +14,14 @@ event_inherited(); // Make sure that this is called in any object that is a chil
 
 current_room = Level1; // Game Start Room
 
-SaveSystemAddInstance(id, SINGLETON);
-SaveSystemAddSingletonVar("current_room");
+visitedRooms = ds_map_create();
+ds_map_add(visitedRooms, "Level1", true);
+ds_map_add(visitedRooms, "Level2", false);
+ds_map_add(visitedRooms, "Level3", false);
+
+gss_AddInstance(id, SINGLETON);
+gss_AddSingletonVar("current_room");
+gss_AddSingletonVar("visitedRooms", ds_type_map);
 
 // Give instances a spawn step.. 4 more for.. like good measure?
 alarm[0] = 3;
