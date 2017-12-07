@@ -9,7 +9,7 @@
         "15517570-ec6b-4af2-a26d-292b6ddb5ca2"
     ],
     "filterType": "GMScript",
-    "folderName": "Local Functions",
+    "folderName": "Local Functions (Only Used By SaveSystem)",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

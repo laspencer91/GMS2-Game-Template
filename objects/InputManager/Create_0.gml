@@ -11,8 +11,3 @@ rightKey = vk_right;
 leftKey  = vk_left;
 upKey    = vk_up;
 downKey  = vk_down;
-
-SaveSystemAddInstance(id, SINGLETON);
-SaveSystemAddSingletonVar("rightKey");
-SaveSystemAddSingletonVar("leftKey");
-SaveSystemAddSingletonVar("upKey");

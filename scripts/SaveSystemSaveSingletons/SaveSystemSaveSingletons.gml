@@ -6,7 +6,7 @@
 if (ds_map_empty(global.dataObjects))
 	return;
 
-var _currentInstVarMap, _currentVariable, _currentSingletonName;
+var _currentInstVarMap, _currentVariable, _currentSingletonName, _currentVarNameList;
 var _singletonNameList = ds_map_get_keys(global.dataObjects);
 
 // Iterate through each Singleton name in the global.dataObjects map

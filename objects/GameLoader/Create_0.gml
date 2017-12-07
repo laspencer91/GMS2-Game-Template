@@ -5,10 +5,10 @@
 
 singletons = ds_list_create();
 
-if (room != LoadingRoom)
+if (!IN_LOADING_ROOM)
 {
 	instance_destroy();
-	exit;
+	return;
 }
 
 var i = 0;
@@ -40,5 +40,5 @@ for (var i = 0; i < ds_list_size(singletons); i++)
 						+ "To Fix: Place the code 'event_inherited()' at the beginning of its create event");
 	}
 }
-room_goto_next();
+
 instance_destroy();

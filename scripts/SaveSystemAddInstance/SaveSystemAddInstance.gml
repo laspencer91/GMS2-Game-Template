@@ -37,7 +37,7 @@ if (_typeOfInstance == LOCAL)
 			var currentVarKey = _myVarKeys[| _i];
 			var currentVarVal = _myVarMap[? currentVarKey];
 			
-			if (currentVarKey != "destroy")
+			if (currentVarKey != "destroyed")
 				variable_instance_set(_newSaveInstance, currentVarKey, currentVarVal);
 			else
 				if (currentVarVal == true) instance_deactivate_object(_newSaveInstance); // Disable instance if it was destroyed
@@ -49,5 +49,20 @@ else if (_typeOfInstance == SINGLETON)
 	// Adds the instance as a Singleton. This is saying it is not room dependent. Usually
 	// you can use this if you have created a singleton that is available from your game
 	// loader room.
-	ds_map_add_map(global.dataObjects, _instanceName, ds_map_create());
+	
+	if (!ds_map_exists(global.dataObjects, _instanceName))
+		ds_map_add_map(global.dataObjects, _instanceName, ds_map_create());
+	else
+	{
+		var _myVarMap  = global.dataObjects[? _instanceName];
+		var _myVarKeys = ds_map_get_keys(_myVarMap);
+		
+		for (var _i = 0; _i < ds_list_size(_myVarKeys); _i++)
+		{
+			var currentVarKey = _myVarKeys[| _i];
+			var currentVarVal = _myVarMap[? currentVarKey];
+			
+			variable_instance_set(_newSaveInstance, currentVarKey, currentVarVal);
+		}
+	}
 }

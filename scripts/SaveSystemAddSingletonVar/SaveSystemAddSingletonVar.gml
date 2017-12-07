@@ -15,4 +15,4 @@ if (!ds_map_exists(global.dataObjects, _objectName_))
 
 var _instanceVariableMap_ = global.dataObjects[? _objectName_];
 
-ds_map_replace(_instanceVariableMap_, _varToAdd, variable_instance_get(id, _varToAdd));
+ds_map_add(_instanceVariableMap_, _varToAdd, variable_instance_get(id, _varToAdd));

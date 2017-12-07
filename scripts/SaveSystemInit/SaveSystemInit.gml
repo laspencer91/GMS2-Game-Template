@@ -1,10 +1,8 @@
 ///@desc Initialize Data Stucture For Save Infomation
 
-// Macros used by save system
-#macro INST_PROP_DELIMITER ";"
-#macro LOCAL 0
-#macro SINGLETON 1
-
+if (variable_global_exists("saveDataMap"))
+	return;
+	
 // This is the parent of this data structure, it contains nested maps and list that organize data into easily
 // accessable elements.
 global.saveDataMap = ds_map_create()
