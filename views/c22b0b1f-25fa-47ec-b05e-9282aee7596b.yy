@@ -10,7 +10,7 @@
         "371abf12-e698-4056-a02a-f01158ad778d"
     ],
     "filterType": "GMScript",
-    "folderName": "Adding Data To Save",
+    "folderName": "Adding Data To Save Struct",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
