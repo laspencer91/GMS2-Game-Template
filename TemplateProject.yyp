@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "4068ec75-9ed5-46a2-9467-ea1a25db97e2",
+            "Value": {
+                "id": "50426518-4e26-4b06-9020-fdc2ac160a0a",
+                "resourcePath": "scripts\\gss_AddVariable\\gss_AddVariable.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "41d5789e-869e-4a72-ae9f-724ae14b6a6b",
             "Value": {
                 "id": "41e69c1d-0b3d-4533-962b-281c50690025",
@@ -967,6 +975,7 @@
         "d23e965b-608d-4086-811d-0274a5cbb3cf",
         "c534112e-6e6e-4f70-a5fc-50bbd2196b0a",
         "d9de4be3-5be9-4e9b-9f2f-57792e0cc9e1",
+        "4068ec75-9ed5-46a2-9467-ea1a25db97e2",
         "1c63eb7c-b10b-4e54-a7ad-8f364577a4d0",
         "371abf12-e698-4056-a02a-f01158ad778d",
         "2114ddf5-4949-4fb6-886f-1daccc514f6e",

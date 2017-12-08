@@ -19,7 +19,7 @@ ds_map_add(visitedRooms, "Level1", true);
 ds_map_add(visitedRooms, "Level2", false);
 ds_map_add(visitedRooms, "Level3", false);
 
-gss_AddInstance(id, SINGLETON);
+gss_AddInstance(id);
 gss_AddSingletonVar("current_room");
 gss_AddSingletonVar("visitedRooms", ds_type_map);
 
