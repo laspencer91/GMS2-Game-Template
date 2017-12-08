@@ -30,6 +30,7 @@ for (var i = 0; i < ds_list_size(_instVarKeyList); i++)
 	
 	if (!instance_exists(_currentObjIndex))
 	{
+		// The object has been destroyed if it doesnt exist anymore :|
 		ds_map_replace(_currentVariableMap, "destroyed", true);
 	}
 	else
@@ -46,6 +47,8 @@ for (var i = 0; i < ds_list_size(_instVarKeyList); i++)
 			}
 			else if (_a == instance_number(_currentObjIndex) - 1)
 			{
+				// Once Again.. IF we cant find the instance associated with this map
+				// key it must have been destroyed
 				ds_map_replace(_currentVariableMap, "destroyed", true);
 			}
 		}

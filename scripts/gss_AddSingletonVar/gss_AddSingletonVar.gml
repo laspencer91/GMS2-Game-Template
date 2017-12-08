@@ -18,10 +18,17 @@ var _instanceVariableMap_ = global.dataObjects[? _objectName_];
 
 if (argument_count > 1)
 {
-	if (argument[1] == ds_type_map)	
+	switch (argument[1])
 	{
-		ds_map_add_map(_instanceVariableMap_, DS_T_MAP + _varToAdd, variable_instance_get(id, _varToAdd)) 
+		case (ds_type_map):
+			ds_map_add_map(_instanceVariableMap_, DS_T_MAP + _varToAdd, variable_instance_get(id, _varToAdd)) ;
+			break;
+		case (ds_type_list):
+			ds_map_add_list(_instanceVariableMap_, DS_T_LIST + _varToAdd, variable_instance_get(id, _varToAdd));
+			break;
 	}
 }
 else
+{
 	ds_map_add(_instanceVariableMap_, _varToAdd, variable_instance_get(id, _varToAdd));
+}
