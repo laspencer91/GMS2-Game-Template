@@ -20,8 +20,8 @@ ds_map_add(visitedRooms, "Level2", false);
 ds_map_add(visitedRooms, "Level3", false);
 
 gss_AddInstance(id);
-gss_AddSingletonVar("current_room");
-gss_AddSingletonVar("visitedRooms", ds_type_map);
+gss_AddVariable("visitedRooms", ds_type_map);
+
 
 // Give instances a spawn step.. 4 more for.. like good measure?
 alarm[0] = 3;
