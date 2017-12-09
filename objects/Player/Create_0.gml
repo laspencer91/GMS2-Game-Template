@@ -7,5 +7,4 @@
 
 // If you want to save data between rooms you can either make the player persistant or use a PlayerStatsManager
 // system as shown in the Example Project
-myHealth	   = 100;
 maxRunSpeed    = 5;

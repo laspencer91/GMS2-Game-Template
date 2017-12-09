@@ -1,28 +1,18 @@
 {
-    "id": "9dba1394-aa59-4fe6-97a6-847ef89e1c13",
+    "id": "c2458502-bc40-4781-a40c-1c2f50c1ec3b",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "ButtonLoadGame",
     "eventList": [
         {
-            "id": "b3f1cbdb-00c8-4a84-8d62-ecc4215d41bf",
+            "id": "604f9f99-12be-431f-912b-aee1c590703b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 6,
-            "m_owner": "9dba1394-aa59-4fe6-97a6-847ef89e1c13"
-        },
-        {
-            "id": "ff7653d9-74ed-4c9a-9d27-28cf2bd2e5a4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "9dba1394-aa59-4fe6-97a6-847ef89e1c13"
+            "m_owner": "c2458502-bc40-4781-a40c-1c2f50c1ec3b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -41,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "f7421942-f17c-45f3-bce2-f9000e57c5ca",
+    "spriteId": "c5316ba9-036b-42fb-9fab-61b76aedc63c",
     "visible": true
 }

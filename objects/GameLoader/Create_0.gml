@@ -13,8 +13,6 @@ if (!IN_LOADING_ROOM)
 
 var i = 0;
 
-instance_create_depth(0, 0, "Instances", SaveSystemHandler);
-
 // Loop through our resource tree and find all Singleton objects to be created
 while (true)
 {
@@ -40,5 +38,5 @@ for (var i = 0; i < ds_list_size(singletons); i++)
 						+ "To Fix: Place the code 'event_inherited()' at the beginning of its create event");
 	}
 }
-
+room_goto(Level1);
 instance_destroy();

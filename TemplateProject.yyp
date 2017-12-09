@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "016c6357-3f44-4fab-b329-fc663aa9d43d",
-            "Value": {
-                "id": "a23be426-bc22-49fd-8d89-a5e47da114a4",
-                "resourcePath": "views\\016c6357-3f44-4fab-b329-fc663aa9d43d.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "0432ab95-033d-4827-ae36-91b963850fa8",
             "Value": {
                 "id": "3fa30b9b-ffbf-454d-a38d-b910e4785a68",
@@ -76,14 +68,6 @@
                 "id": "e878f4b1-e122-4487-bdd5-8738fc6b4a30",
                 "resourcePath": "views\\076b7795-966c-481a-b457-2f275d342772.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "09b6db35-c757-426a-8e2e-59677c9861ab",
-            "Value": {
-                "id": "5615768c-157a-470c-8166-0c152c03143c",
-                "resourcePath": "objects\\SaveSystemHandler\\SaveSystemHandler.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -567,14 +551,6 @@
             }
         },
         {
-            "Key": "9dba1394-aa59-4fe6-97a6-847ef89e1c13",
-            "Value": {
-                "id": "15b2b77a-ab3a-4f8a-9b3b-247698f39996",
-                "resourcePath": "objects\\ButtonLoadGame\\ButtonLoadGame.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9ef0a479-7d98-411a-b48f-18e63b8dba61",
             "Value": {
                 "id": "86f0a9f1-57da-4de2-8ae8-707500d9bcf3",
@@ -596,14 +572,6 @@
                 "id": "b705fffc-6a12-4fef-967a-c2d921de82ff",
                 "resourcePath": "scripts\\gss_AddRoom\\gss_AddRoom.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "a8d83af9-ad6f-4c37-b5d7-7ac4d4130462",
-            "Value": {
-                "id": "8b46fd18-d498-44c8-9184-60ea7bfc17d7",
-                "resourcePath": "objects\\RandomEnemy\\RandomEnemy.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -682,7 +650,7 @@
             "Key": "c2458502-bc40-4781-a40c-1c2f50c1ec3b",
             "Value": {
                 "id": "2b202b8a-66ce-40e1-b01e-72c67b95a6f1",
-                "resourcePath": "objects\\mmButtonLoadGame\\mmButtonLoadGame.yy",
+                "resourcePath": "objects\\ButtonLoadGame\\ButtonLoadGame.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -740,14 +708,6 @@
                 "id": "ce3beb46-9ba6-42b1-9c08-638bba4c3ec6",
                 "resourcePath": "rooms\\StartMenu\\StartMenu.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "cbce82fd-6675-4a83-841f-8aa65359607d",
-            "Value": {
-                "id": "9a839a9f-33dc-446c-81d3-1268528214ce",
-                "resourcePath": "views\\cbce82fd-6675-4a83-841f-8aa65359607d.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -932,14 +892,6 @@
                 "id": "e9ef5233-5f5c-42a9-a057-5d4abe37a2dc",
                 "resourcePath": "views\\fbc573dd-b155-43b1-943b-88a8d0466d6b.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "fd3bbf46-34af-4ebf-9a6b-805062dea653",
-            "Value": {
-                "id": "8802270c-79f8-4d22-90fe-71bfe5c6b59d",
-                "resourcePath": "objects\\SaveFileSelectionWatcher\\SaveFileSelectionWatcher.yy",
-                "resourceType": "GMObject"
             }
         },
         {

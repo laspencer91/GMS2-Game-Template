@@ -11,17 +11,3 @@
 // and anything else that has to do with rooms!
 
 event_inherited(); // Make sure that this is called in any object that is a child of Singleton
-
-current_room = Level1; // Game Start Room
-
-visitedRooms = ds_map_create();
-ds_map_add(visitedRooms, "Level1", true);
-ds_map_add(visitedRooms, "Level2", false);
-ds_map_add(visitedRooms, "Level3", false);
-
-gss_AddInstance(id);
-gss_AddVariable("visitedRooms", ds_type_map);
-
-
-// Give instances a spawn step.. 4 more for.. like good measure?
-alarm[0] = 3;
