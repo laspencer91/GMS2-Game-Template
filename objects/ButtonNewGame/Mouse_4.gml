@@ -1,3 +1,3 @@
 /// @description Goto GameLoader room
 
-room_goto(LoadingRoom);
+room_goto(NewGameLoadingRoom);

@@ -1,8 +1,8 @@
 {
-    "id": "210962dc-b63b-4de5-8d07-f636e66eaa6e",
+    "id": "4068ec75-9ed5-46a2-9467-ea1a25db97e2",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ds_list_rage",
+    "name": "gss_AddVariable",
     "IsCompatibility": false,
     "IsDnD": false
 }

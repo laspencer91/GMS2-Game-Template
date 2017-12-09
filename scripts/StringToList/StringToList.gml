@@ -7,20 +7,29 @@
 //
 // http://www.seabassandgazellestudios.com/gml-scripts.html
 
-var str_temp = string(argument0);
-var list = ds_list_create();
-var str1 = ""; 
-var str2 = ""; 
-var i = 1;
+var strToDivide  = string(argument0);
+var delimiter    = argument1;
+var list         = ds_list_create();
+var current_char = ""; 
+var finalString  = ""; 
 
-for(i = 1;  i <= string_length(str_temp); i++)
+// Object;323;232
+
+for(var i = 1;  i <= string_length(strToDivide); i++)
 {
-	str1 = string_char_at(str_temp,i);
-	str2 = str2 + str1;
-	if (str1 == argument1 or i == string_length(str_temp)) 
+	current_char = string_char_at(strToDivide, i);
+	
+	if (current_char == delimiter or i == string_length(strToDivide)) 
 	{
-		ds_list_add(list, str2);
-		str2 = "";
+		if (i == string_length(strToDivide))
+			finalString += current_char;
+			
+		ds_list_add(list, finalString);
+		finalString = "";
+	}
+	else
+	{
+		finalString += current_char;	
 	}
 }
 return list;
