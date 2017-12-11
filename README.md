@@ -9,8 +9,8 @@ https://discord.gg/Su3SjcD
 
 To add a new controller object that will be available throughout your game its as easy as.
 
-1. Add and object
-2. In the Create event put "event_inherited"
+1. Add a new object
+2. In the Create event put write the line "event_inherited()" to call the Parents create event code
 3. Set the Objects parent to "Singleton"
 
 Walla!! You just made an object that will be in every room in your game, and unless you say otherwise... Its variables will not be reset on room change. Any object with this setup will automatically be created when NewGame is clicked (More accurately.. when the GameLoader room starts)
