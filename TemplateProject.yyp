@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "10f91211-a852-4f15-aeca-8b64bf843ccd",
+            "Value": {
+                "id": "7bdd848e-c4c9-46d6-b0d0-f4b62e0070c0",
+                "resourcePath": "scripts\\gss_LoadGame\\gss_LoadGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "13c8fa68-63c9-4c35-85f0-5381ecc03e7b",
             "Value": {
                 "id": "6b588577-d77d-436f-a344-f0766f34a976",
@@ -196,6 +204,14 @@
                 "id": "23890382-9d83-4dcc-aa0a-a9047d656146",
                 "resourcePath": "rooms\\LoadingRoom\\LoadingRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3b53207b-650b-4ac8-b02e-bb37e40f13d4",
+            "Value": {
+                "id": "f98b790f-a53a-4a2d-9aef-ca2eb476376d",
+                "resourcePath": "scripts\\DrawPolygon\\DrawPolygon.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -929,6 +945,7 @@
         "f23f738e-43b5-4bc1-b7ab-e954292061fa",
         "8ed7d74e-af78-4360-9330-214e5525d918",
         "1e85abb9-25cb-4715-8cd3-9bb41e301108",
+        "3b53207b-650b-4ac8-b02e-bb37e40f13d4",
         "463a4a75-05b9-4f80-8d22-0d1a65e6520f",
         "62dbc3aa-64ef-45c2-978e-49037e54a70a",
         "d2f2cad7-8d60-4ae9-88c6-b50a7e234d32",
@@ -950,6 +967,7 @@
         "2114ddf5-4949-4fb6-886f-1daccc514f6e",
         "59f08a39-ee96-45c9-9a82-e71df058729d",
         "982ec55d-dd9f-4984-9162-f452027a55a3",
+        "10f91211-a852-4f15-aeca-8b64bf843ccd",
         "ec6fc946-503b-427b-aae5-c6a650c364e1",
         "a5fe4d04-3346-49a5-ac07-821749659656",
         "15517570-ec6b-4af2-a26d-292b6ddb5ca2",
