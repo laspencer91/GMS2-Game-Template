@@ -1,4 +1,6 @@
-/// @description Update saved data for all registered Singleton objects
+/// @description Update saved data for all registered Singleton objects.
+///              This only updates the objects variables internally. To
+///              save the data to the disk you need to use gss_SaveSecure.
 /// @function gss_SaveSingletons()
 
 // Iterates through all the keys found in global.dataObjects, updating the

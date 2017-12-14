@@ -1,5 +1,6 @@
 /// @description Add a variable to keep saved for a Singleton object
 ///              This should be called from a Singleton objects create event.
+///              USING gss_AddVariable is prefered over this in most cases.
 /// @function gss_AddSingletonVar(var)
 /// @param string variable to keep saved
 
