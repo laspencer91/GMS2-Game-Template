@@ -1,4 +1,8 @@
-/// @desc Save the data of this room into our Save System
+/// @desc Save the data of this room into our Save System.
+///       This saves all variables of instances that were
+///       registered in this room. This updates these instances
+///       for this room internally. To save data to disk you
+///       need to use gss_SecureSave
 
 // Exit if the room has no data saved in it
 if (!ds_map_exists(global.gameRooms, room_get_name(room)))

@@ -1,6 +1,9 @@
 /// @desc Adds an instance of an object in a specific room to the Save Data Structure
-/// @param newSaveInstance  Id of Instance to save
-/// @param typeOfInstance (LOCAL, SINGLETON)
+/// @param {real} newSaveInstance Id of Instance to save
+/// @param {Constant} [typeOfInstance] (LOCAL, SINGLETON) -> Local refers to an object that
+///                                    belongs to a room. SINGLETON refers to a persistent object
+/// @example gss_AddInstance(id)
+
 var _newSaveInstance = argument[0];
 var _typeOfInstance;
 

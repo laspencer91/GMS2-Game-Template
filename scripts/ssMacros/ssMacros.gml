@@ -8,7 +8,7 @@
 #macro SINGLETON 1
 
 // Tell if the current room is one of the loading rooms
-#macro IN_LOADING_ROOM (room == LoadGameLoadingRoom || room == NewGameLoadingRoom)
+#macro IN_LOADING_ROOM (room == NewGameLoadingRoom)
 
 // Used to identify the type of a data structure saved in the saveData map.
 // Prefixes the variable name.			Ex: "0vistitedRooms" : { Nested Map }

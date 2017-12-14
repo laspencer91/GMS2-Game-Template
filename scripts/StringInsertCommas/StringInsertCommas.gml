@@ -1,6 +1,6 @@
 /// @description Inserts "," into places it belongs.
 /// @function StringInsertCommas(real)
-///	@param real A number or String (Number Value)
+///	@param {real} number A number or String (Number Value)
 //
 // Examples:
 //   Before: 1000000

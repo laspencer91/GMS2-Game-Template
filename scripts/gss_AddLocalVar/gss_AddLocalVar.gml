@@ -1,4 +1,5 @@
-/// @description Add a variable to keep saved for a local (specific to a room) instance
+/// @description Add a variable to keep saved for a local (specific to a room) instance. 
+///              USING gss_AddVariable is prefered over this in most cases.
 /// @function gss_AddLocalVar(var)
 /// @param string variable to keep saved
 
