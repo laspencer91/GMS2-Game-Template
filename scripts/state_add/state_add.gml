@@ -1,5 +1,6 @@
 /// @desc Add new state to machine
 /// @function state_add
+/// @param machineIndex index of a previously created state machine to use
 /// @param stateName Name of state to add. Can be real number or string
 /// @param stateScript Script to execute during this state. EX: scr_name
 ///
